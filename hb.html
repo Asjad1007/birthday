@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(to bottom, #f78ca0, #fbc2eb);
+        color: #333;
+        overflow-x: hidden;
+      }
+      h1 {
+        text-align: center;
+        font-size: 3em;
+        margin: 20px 0;
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      }
+      .container {
+        position: relative;
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 40px;
+        text-align: center;
+      }
+      .message {
+        position: relative;
+        z-index: 10;
+        font-size: 1.5em;
+        color: #333;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+      .collage {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        margin-top: -400px; /* To overlap with the message */
+      }
+      .collage img {
+        position: absolute;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+      }
+      .collage img:hover {
+        transform: scale(1.1);
+      }
+      .img1 {
+        top: 10px;
+        left: 10%;
+        width: 150px;
+        height: 120px;
+        transform: rotate(-5deg);
+      }
+      .img2 {
+        top: 50px;
+        right: 10%;
+        width: 200px;
+        height: 150px;
+        transform: rotate(5deg);
+      }
+      .img3 {
+        bottom: 50px;
+        left: 5%;
+        width: 180px;
+        height: 140px;
+        transform: rotate(-8deg);
+      }
+      .img4 {
+        bottom: 10px;
+        right: 5%;
+        width: 220px;
+        height: 160px;
+        transform: rotate(8deg);
+      }
+      .img5 {
+        top: 200px;
+        left: 50%;
+        width: 250px;
+        height: 180px;
+        transform: translateX(-50%) rotate(-10deg);
+      }
+      .img6 {
+        bottom: 30px;
+        left: 30%;
+        width: 200px;
+        height: 150px;
+        transform: rotate(10deg);
+      }
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        color: #fff;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🎉 Happy Birthday, [Best Friend's Name]! 🎉</h1>
+    <div class="container">
+      <div class="message">
+        <p>Hey [Best Friend's Name],</p>
+        <p>
+          Wishing you a day filled with joy, laughter, and unforgettable
+          memories. Thank you for being such an amazing friend. Here’s to
+          celebrating you today and always! 🎂
+        </p>
+        <p>Happy Birthday! 🥳</p>
+      </div>
+      <div class="collage">
+        <!-- Replace these image URLs with your own -->
+        <img src="https://via.placeholder.com/150" alt="Image 1" class="img1" />
+        <img src="https://via.placeholder.com/200" alt="Image 2" class="img2" />
+        <img src="https://via.placeholder.com/180" alt="Image 3" class="img3" />
+        <img src="https://via.placeholder.com/220" alt="Image 4" class="img4" />
+        <img src="https://via.placeholder.com/250" alt="Image 5" class="img5" />
+        <img src="https://via.placeholder.com/200" alt="Image 6" class="img6" />
+      </div>
+    </div>
+    <footer>Made with ❤️ by your best friend.</footer>
+  </body>
+</html>
